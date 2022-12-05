@@ -1,6 +1,28 @@
 # Computer-Networks-Final-Project-Institutional-Network-Architecture
 
-# Description
+##The following tasks are performed on the server:
+
+
+1. Establishing a connection with a client: It is the server's responsibility to establish a connection with a client. This is possible with the Python socket module. Access to the BSD socket interface is provided by the socket module. The server will need to know the client's host address and port number.
+The server can begin sending and receiving data from the client once the connection is established.
+
+
+2. Receiving files from the client: Receiving files from the client will be handled by the server.
+This is possible with the Python socket module.
+The server will need to know the client's host address and port number. The data received from the client will then be deserialized by the server.
+
+3. File distribution to multiple clients:
+
+The server will be in charge of distributing files to multiple clients. This is possible with the Python socket module. The server must specify the destination clients' host address and port number.
+The data will then be serialized and sent to the destination clients by the server.
+
+4. Keeping a list of connected clients: The server will be in charge of keeping a list of connected clients.
+This is possible with the Python list data structure.
+The server must keep a list of each client's host address and port number.
+
+
+
+## Description
 In order to demonstrate the proposed 
 P2P system, the following tools will be used:
 
@@ -16,6 +38,7 @@ and analyze the results. Wireshark is a network protocol
 analyzer. It allows users to capture and analyze network
 traffic. This can be used to capture the network traffic of 
 the proposed P2P system and analyze the results.
+
 
 Well commented code will be used throughout the 
 development of the proposed system in order to
