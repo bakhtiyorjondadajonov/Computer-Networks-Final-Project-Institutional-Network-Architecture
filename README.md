@@ -1,6 +1,6 @@
 # Computer-Networks-Final-Project-Institutional-Network-Architecture
 
-Connection with a server establishment: The client is in charge of making the connection with the server. The socket module for Python can be used for this. Access to the BSD socket interface is made available by the socket module. The host address and port number of the server must be provided by the client.
+## Connection with a server establishment: The client is in charge of making the connection with the server. The socket module for Python can be used for this. Access to the BSD socket interface is made available by the socket module. The host address and port number of the server must be provided by the client.
 The client can start transmitting and receiving data to and from the server as soon as the connection is made.
 
 2. Sending photos, CSV, and JSON files to another client: The customer is in charge of sending files to another client, including images, CSV, and JSON files. The socket module for Python can be used for this. The host address and port number of the destination client must be specified by the client.
